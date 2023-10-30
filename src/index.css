@@ -715,3 +715,39 @@ ol {
   font-weight: 600;
 }
 /* Apply screen */
+/* Applied candidates screen - for employer/company */
+.job-title-card {
+  border-radius: 24px;
+  background: var(--0-a-4-a-70, #0a4a70);
+  color: white;
+  padding: 26px 0;
+}
+.job-title-card > .title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.applied-candidate-card {
+  border-radius: 16px;
+  background: #f5f5f5;
+  padding: 24px;
+}
+.applied-candidate-card h4 {
+  color: #414141;
+  font-size: 21px;
+  font-weight: 500;
+}
+.applied-candidate-card .download-btn {
+  display: flex;
+  gap: 20px;
+  border-radius: 5px;
+  padding: 5px 12px;
+  background: var(--0-a-4-a-70, #0a4a70);
+  width: 170px;
+  color: white;
+}
+.applied-candidate-card > .download-btn > p {
+  font-size: 15px;
+  font-weight: 500;
+}
+/* Applied candidates screen - for employer/company */

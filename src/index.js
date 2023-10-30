@@ -14,7 +14,8 @@ import SingleJobScreen from './Pages/SingleJobScreen';
 import AppliedJobsScreen from './Pages/AppliedJobsScreen';
 import ProfileScreen from './Pages/ProfileScreen';
 import ApplyScreen from './Pages/ApplyScreen';
-import CompanyProfileScreen from './Pages/CompanyProfileScreen';
+import CompanyProfileScreen from './Pages/EmployerPages/CompanyProfileScreen';
+import AppliedCandidatesScreen from './Pages/EmployerPages/AppliedCandidatesScreen';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="/profile" element={<ProfileScreen />} />
       <Route path="/apply" element={<ApplyScreen />} />
       <Route path="/company-profile" element={<CompanyProfileScreen />} />
+      <Route path="/applied-candidates" element={<AppliedCandidatesScreen />} />
     </Route>
   )
 );

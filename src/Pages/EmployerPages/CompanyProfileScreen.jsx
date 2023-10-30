@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import ApplicationHistoryComp from "../Components/ApplicationHistoryComp";
-import CompanyJobsComp from "../Components/CompanyJobsComp";
-import Footer from "../Components/Footer";
+import ApplicationHistoryComp from "../../Components/ApplicationHistoryComp";
+import CompanyJobsComp from "../../Components/CompanyJobsComp";
+import Footer from "../../Components/Footer";
 
 const CompanyProfileScreen = () => {
   return (
