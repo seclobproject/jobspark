@@ -751,3 +751,58 @@ ol {
   font-weight: 500;
 }
 /* Applied candidates screen - for employer/company */
+/* Applicant profile screen */
+.applicant-details {
+  border-radius: 15px;
+  background: #f3f3f3;
+  padding: 35px;
+}
+.application-status {
+  border: 1px solid #0a4a70;
+  padding: 8px;
+  border-radius: 8px;
+  color: #0a4a70;
+}
+.applicant-contact-info {
+  border-radius: 15px;
+  background: #fff;
+  padding: 30px;
+}
+.ci-right {
+  height: 82%;
+}
+.applicant-contact-info h4 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.applicant-contact-info p {
+  padding: 3px 0;
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+.applicant-contact-info p:nth-child(2),
+.applicant-contact-info p:nth-child(3) {
+  margin-left: 10px;
+}
+.applicant-job {
+  border-radius: 8px;
+  border: 1px solid #cfc5c5;
+  padding: 10px 15px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.pdf-icon {
+  width: 14px;
+}
+.applicant-contact-info .download-btn {
+  display: flex;
+  gap: 20px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: var(--0-a-4-a-70, #0a4a70);
+  width: 140px;
+  color: white;
+  font-size: 12px;
+}
+/* Applicant profile screen */
